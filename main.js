@@ -1,4 +1,4 @@
-
+///store about lists
     let tasks = [
     {
         task_ID : create_ID(),
@@ -12,8 +12,8 @@
     function create_ID(){
     return Date.now();
 }
-
-    function addTasks () {
+///create and add tast
+function addTasks () {
     let title = document.getElementById("exampleFormControlInput1")
     let content = document.getElementById("exampleFormControlTextarea2")
     console.log( content.value  )
@@ -33,7 +33,7 @@
     content.value = '';
 }
 }
-
+///add item list
     function createItem(element) {
 
     let item = document.createElement('div'),
